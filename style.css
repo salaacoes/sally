@@ -1,0 +1,148 @@
+body {
+  background: linear-gradient(#002e98, #195fff 100%);}
+}
+
+header {
+	background: #195fff;
+	padding: 0px 0;}
+
+.box {
+	position: relative;
+	width: 999px;
+	margin: 0 auto;}
+
+nav {
+	position: absolute;
+	top: 5px;
+	right: 2;}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;}
+
+nav a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.5);}
+
+nav a:hover {
+	color: #000000;
+	text-decoration: }
+
+body {
+
+	font-family: 'Creato Display', sans-serif;}
+
+hr {
+  display: block;
+  margin-top: 8em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;}
+
+footer {
+	text-align: center;
+	padding: 50px 0;}
+
+.copyright {
+	color: #ffffff;
+	font-size: 13px;
+	margin-top: 20px;}
+
+
+/*** Index da Sally (index.html) ***/
+
+
+
+.section-main, .box {
+	padding: 2em 0;
+	margin: 0 auto;}
+
+.section-main {
+	width: 940px;}
+
+.section-main p {
+	margin: 0 0 1em;
+	color: #ffffff;
+	clear: left;
+	line-height: 1.3;}
+
+.section-main strong {
+
+	font-weight: bold;}
+
+
+.section-main-title {
+	text-align: left;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.5);}
+
+.section-main-title:first-letter {
+	font-size: 1.5em;
+	font-weight: bold;}
+
+.logotipo-sally {
+	width: 0px;
+	float: left;
+	margin: 0 1em 1em 0;}
+
+.bot-sally {
+	width: 10px;
+	position: absolute;
+	top: 60px;
+	left: 880px;
+	box-shadow: 0px 0px 50px rgba(0,0,0,0.5);
+	margin: 0 auto;}
+
+
+.logotipo-sally {
+
+	width: 50%;
+	opacity: 1;
+	box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+	transition: 400ms; }
+
+
+.logotipo-topo {
+
+	width: 10%;
+	opacity: 1;
+	box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+	transition: 400ms; }
+
+
+@media screen and (max-width: 480px) {
+
+	.box, .section-main, .bot-sally {
+
+		width: auto;}
+
+	h1 {
+
+		text-align: center;}
+
+	nav {
+		text-align: center;
+		position: static;}
+
+	nav a {
+
+		font-size: 1.2em;}
+
+	/*** Página Inicial (index.html) ***/ 
+	.logotipo-sally {
+
+		width: 100%;}
+
+.bot-sally {
+
+		width: 100%;}
+
+
+	}
